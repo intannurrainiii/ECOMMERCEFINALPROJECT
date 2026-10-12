@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    background: linear-gradient(to right, lightblue, lightpink);
+    color: #6baed6;
+}
+table {
+    margin: 0 auto;
+    border-collapse: separate; 
+    border-spacing: 0;        
+    border: 1px solid black; 
+    width: 100%;
+    max-width: 1200px; 
+    border-radius: 10px;      
+    overflow: hidden;            
+    
+}
+th {
+    padding: 50px;
+    text-align: center;
+    border: solid black 1px;
+}
+
+td {
+    padding: 50px;
+    border: solid black 1px;
+
+}
+
+/* ===== Tambahan untuk fitur database ===== */
+a {
+    color: #6baed6;
+    font-weight: bold;
+}
+.pesan {
+    color: red;
+    font-weight: bold;
+}
+.menu {
+    margin: 20px 0;
+}
